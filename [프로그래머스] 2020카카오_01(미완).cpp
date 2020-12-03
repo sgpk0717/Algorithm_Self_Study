@@ -58,8 +58,8 @@ int main(void)
 	
 	compressed_length.resize(plain.size()/2);
 	 
-	cout << "¹®ÀÚ¿­ÀÇ ±æÀÌ\t: " << plain.size() << endl;
-	cout << "¹è¿­ÀÇ Å©±â\t: " << compressed_length.size() << endl; 
+	cout << "ë¬¸ìžì—´ì˜ ê¸¸ì´\t: " << plain.size() << endl;
+	cout << "ë°°ì—´ì˜ í¬ê¸°\t: " << compressed_length.size() << endl; 
 	
 	compress(plain, 3);
 	
