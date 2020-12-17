@@ -9,8 +9,6 @@ while cnt < X:
     dir*=-1
 diff = cnt-X
 sum = length+1
-# print('diff:%d, length:%d, sum:%d, cnt:%d, X:%d, dir:%d'
-#       %(diff,length,sum,cnt,X,dir))
 son=-1
 mom=-1
 if dir==-1:
@@ -20,5 +18,3 @@ else:
     son = sum-diff-2
     mom = 1+diff
 print('%d/%d'%(son,mom))
-
-
