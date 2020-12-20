@@ -2,7 +2,6 @@ X=int(input())
 cnt=0
 length=1
 dir=1
-
 while cnt < X:
     cnt+=length
     length+=1
