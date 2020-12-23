@@ -1,0 +1,6 @@
+notes = list(map(int,input().split()))
+asc = sorted(notes)
+dsc = sorted(notes,reverse=True)
+if notes == asc: print('ascending')
+elif notes == dsc: print('descending')
+else: print('mixed')
