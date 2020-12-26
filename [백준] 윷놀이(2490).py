@@ -4,7 +4,6 @@ def count_0(yoots):
         if yoots[i]=='0':
             cnt+=1
     return cnt
-
 def get_rank(zero_num):
     if zero_num==0:
         return 'E'
