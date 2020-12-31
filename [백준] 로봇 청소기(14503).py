@@ -1,5 +1,3 @@
-import pprint
-
 def check_valid(x,y):
     if x<0 or x>=N: return False
     if y<0 or y>=M: return False
@@ -7,9 +5,6 @@ def check_valid(x,y):
 
 def get_cleaned_by_dfs(cur_x, cur_y, cur_d, room):
     room[cur_x][cur_y]=2
-    # for _ in range(N):
-    #     print(room[_])
-    # print()
     for _ in range(4):
         cur_d = (cur_d-1)%4
         if cur_d == 0:
@@ -61,10 +56,7 @@ r, c, d = map(int,input().split())
 room = []
 for i in range(N):
     room.append(list(map(int,input().split())))
-
-# for _ in range(N):
-#     print(room[_])
-# print()
+    
 get_cleaned_by_dfs(r,c,d,room)
 
 ans=0
